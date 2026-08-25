@@ -1,4 +1,4 @@
-var CACHE_NAME = 'dcard-erica-vieira-v01-01';
+var CACHE_NAME = 'dcard-erica-vieira-v01-02';
 var urlsToCache = [
 	'./',
 	'./index.html',
@@ -10,6 +10,7 @@ var urlsToCache = [
     './css/brands.css',
     './css/fontawesome.css',
     './css/modal.css',
+	'./css/erica-vieira.css',
 	'./webfonts/fa-brands-400.eot',
 	'./webfonts/fa-brands-400.svg',
 	'./webfonts/fa-brands-400.ttf',
@@ -25,7 +26,6 @@ var urlsToCache = [
 	'./webfonts/fa-solid-900.ttf',
 	'./webfonts/fa-solid-900.woff',
 	'./webfonts/fa-solid-900.woff2',
-	'./imgs/default-avatar.png',
 	'./imgs/default-avatar.png',
 	'./imgs/erica-vieira-avatar-redes-sociais-de-assinatura.jpg',
 	'./imgs/erica-vieira-background-01.png',
@@ -84,7 +84,7 @@ self.addEventListener('activate', function(event) {
 /* FETCH */
 self.addEventListener('fetch', function(event) {
 	const requestUrl = new URL(event.request.url);
-	const isRoot = requestUrl.pathname === '/' || requestUrl.pathname === '/gemima-mansoor/';
+	const isRoot = requestUrl.pathname === '/' || requestUrl.pathname === '/erica-vieira/';
   
 	event.respondWith(
 	  caches.match(event.request).then(function(response) {
