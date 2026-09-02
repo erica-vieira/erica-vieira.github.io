@@ -2790,7 +2790,7 @@
 			-webkit-background-clip: text !important;
 			-webkit-text-fill-color: transparent !important;
 			background-clip: text !important;
-			font-size: clamp(1.5rem, 5vw, 2.5rem) !important;
+			/*font-size: clamp(1.5rem, 5vw, 2.5rem) !important;*/
 			transition: all 0.3s ease !important;
 		}
 		.nav-icons a:hover {
@@ -2916,8 +2916,10 @@
 			display: inline-flex !important;
 			align-items: center !important;
 			justify-content: center !important;
+			/*
 			width: clamp(2.851rem, 10vw, 4rem) !important;
 			height: clamp(2.851rem, 10vw, 4rem) !important;
+			*/
 			border-radius: 50% !important;
 			/*background: rgba(56, 14, 15, 0.3) !important;*/
 			background-color: rgba(40, 12, 9, 0.8) !important;
@@ -2973,8 +2975,10 @@
 			display: inline-flex !important;
 			align-items: center !important;
 			justify-content: center !important;
+			/*
 			width: clamp(2.851rem, 10vw, 4rem) !important;
 			height: clamp(2.851rem, 10vw, 4rem) !important;
+			*/
 			border-radius: 50% !important;
 			/*background: rgba(56, 14, 15, 0.3) !important;*/
 			background-color: rgba(40, 12, 9, 0.8) !important;
@@ -3007,9 +3011,8 @@
 			background-clip: text !important;
 			*/
 			/*background-image: linear-gradient(145deg, #e9b56a, #a36415) !important;*/
-			font-size: clamp(1.5rem, 5vw, 2.5rem) !important;
+			/*font-size: clamp(1.5rem, 5vw, 2.5rem) !important;*/
 			color: rgba(40, 12, 9, 0.8) !important;
-			font-size: clamp(1.5rem, 5vw, 2.5rem) !important;
 		}
 		.social-btn::before:hover {
 			border-color: var(--ruby-glow);
@@ -3035,8 +3038,10 @@
 			display: inline-flex !important;
 			align-items: center !important;
 			justify-content: center !important;
+			/*
 			width: clamp(2.851rem, 10vw, 4rem) !important;
 			height: clamp(2.851rem, 10vw, 4rem) !important;
+			*/
 			border-radius: 50% !important;
 			background: rgba(56, 14, 15, 0.3) !important;
 			background-clip: padding-box !important;
@@ -3067,7 +3072,7 @@
 			-webkit-text-fill-color: transparent !important;
 			background-clip: text !important;
 			*/
-			font-size: clamp(1.5rem, 5vw, 2.5rem) !important;
+			/*font-size: clamp(1.5rem, 5vw, 2.5rem) !important;*/
 			color: rgba(40, 12, 9, 0.8) !important;
 		}
 		.share-menu .share-item a:hover {
@@ -3911,7 +3916,7 @@
             <div class="face face-front">
                 <div class="content-limit">
                     <header>
-                        <div class="logo-link" onclick="changeContent('INICIO')" title="Logo: Páginia inicial">
+                        <div class="logo-link" onclick="changeContent('INICIO')" title="Logo: Página inicial">
                             <img src="./imgs/erica-vieira-logo-01.png" alt="Logo">
                         </div>
 						<div class="language-selector-container">
@@ -4302,7 +4307,7 @@
 							<div class="contact-btn"><i class="fa-brands fa-whatsapp"></i></div>
 							<span class="contact-label">WhatsApp</span>
 						</a>
-						<a href="https://drive.usercontent.google.com/u/0/uc?id=19Ry0yEZJWkOIg6QB5J37hvz-tSBVljkQ&export=download" class="contact-item" title="Salvar - Contato">
+						<a href="./files/Erica Vieira.vcf" class="contact-item" title="Salvar - Contato">
 							<div class="contact-btn"><i class="fa-solid fa-address-card"></i></div>
 							<span class="contact-label">Salvar</span>
 						</a>
@@ -8129,7 +8134,7 @@
 		// ===== FUNÇÕES PARA A BARRA DE AÇÕES =====
 		function baixarVCard() {
 			// Se você tiver um arquivo .vcf hospedado
-			window.open("./imgs/erica-vieira-contato.vcf", "_blank");
+			window.open("./files/Erica Vieira.vcf", "_blank");
 			// Ou, se preferir, abrir o link de salvar que já existe:
 			// window.open('https://drive.usercontent.google.com/u/0/uc?id=SEU_ID&export=download', '_blank');
 			sendToAnalytics02("Salvar Contato", "Ação Feed", "Card Page");

@@ -1,4 +1,4 @@
-var CACHE_NAME = 'dcard-erica-vieira-v01-02';
+var CACHE_NAME = 'dcard-erica-vieira-v01-03';
 var urlsToCache = [
 	'./',
 	'./index.html',
